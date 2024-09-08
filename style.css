@@ -64,6 +64,10 @@ hr {
 
 section {
   margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero {
@@ -156,6 +160,11 @@ footer {
 .links a {
   color: #cacace;
   text-decoration: none;
+  padding: 4.5px;
+}
+.links a:hover {
+  text-decoration: underline;
+  color: #7c7baa;
 }
 
 .social_media {
@@ -168,6 +177,9 @@ footer {
   }
   .video_medium {
     display: block;
+  }
+  footer {
+    flex-direction: column;
   }
 }
 @media (max-width: 500px) {
