@@ -125,7 +125,8 @@ main {
 }
 
 .person {
-  width: 50%;
+  width: calc(50% - 54px);
+  padding: 18px;
 }
 
 .download-btn {
@@ -188,6 +189,10 @@ footer {
   }
   .band {
     flex-direction: column;
+  }
+  .person {
+    padding: 0px;
+    width: 100%;
   }
   .person {
     width: 100%;
