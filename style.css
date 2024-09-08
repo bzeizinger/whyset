@@ -1,10 +1,9 @@
-* {
+body, html {
+  color: #040404;
   padding: 0;
   margin: 0;
-}
-
-body {
-  color: #040404;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 a {
@@ -14,4 +13,19 @@ a {
 a:hover {
   color: #7c7baa;
   text-decoration: underline;
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.header_img {
+  height: 100vh;
+  width: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */
