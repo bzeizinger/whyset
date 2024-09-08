@@ -175,6 +175,12 @@ footer {
   text-decoration: underline;
   color: #7c7baa;
 }
+.links p a {
+  color: #ffffff;
+}
+.links p a:hover {
+  color: #ffffff;
+}
 
 .social_media {
   justify-content: end;
@@ -199,6 +205,7 @@ footer {
   }
   footer {
     flex-direction: column;
+    text-align: center;
   }
 }
 @media (max-width: 500px) {
