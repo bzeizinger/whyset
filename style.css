@@ -1,1 +1,17 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #040404;
+}
+
+a {
+  color: #040404;
+  text-decoration: none;
+}
+a:hover {
+  color: #7c7baa;
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */
