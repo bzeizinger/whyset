@@ -70,10 +70,6 @@ section {
   align-items: center;
 }
 
-.blue {
-  color: #7c7baa;
-}
-
 .hero {
   height: 100vh;
   display: flex;
