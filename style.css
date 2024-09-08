@@ -1,9 +1,31 @@
+@font-face {
+  font-family: ZenKakuGothicNew-Regular;
+  src: url(/assets/font/ZenKakuGothicNew-Regular.ttf);
+}
+@font-face {
+  font-family: ZenKakuGothicNew-Light;
+  src: url(/assets/font/ZenKakuGothicNew-Light.ttf);
+}
+@font-face {
+  font-family: ZenKakuGothicNew-Medium;
+  src: url(/assets/font/ZenKakuGothicNew-Medium.ttf);
+}
+@font-face {
+  font-family: ZenKakuGothicNew-Bold;
+  src: url(/assets/font/ZenKakuGothicNew-Bold.ttf);
+}
+@font-face {
+  font-family: ZenKakuGothicNew-Black;
+  src: url(/assets/font/ZenKakuGothicNew-Black.ttf);
+}
 body, html {
   color: #040404;
   padding: 0;
   margin: 0;
   height: 100%;
   overflow-x: hidden;
+  font-size: 18px;
+  font-family: ZenKakuGothicNew-Regular;
 }
 
 a {
@@ -13,6 +35,30 @@ a {
 a:hover {
   color: #7c7baa;
   text-decoration: underline;
+}
+
+h1 {
+  font-family: ZenKakuGothicNew-Black;
+}
+
+h2 {
+  font-family: ZenKakuGothicNew-Black;
+}
+
+h3 {
+  font-family: ZenKakuGothicNew-Bold;
+}
+
+h4 {
+  font-family: ZenKakuGothicNew-Bold;
+}
+
+h5 {
+  font-family: ZenKakuGothicNew-Medium;
+}
+
+h6 {
+  font-family: ZenKakuGothicNew-Medium;
 }
 
 header {
@@ -28,4 +74,45 @@ header {
   width: auto;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+main {
+  padding: 18px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.video_big {
+  display: block;
+}
+
+.video_medium {
+  display: none;
+}
+
+.video_small {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .video_big {
+    display: none;
+  }
+  .video_medium {
+    display: block;
+  }
+}
+@media (max-width: 500px) {
+  .video_big {
+    display: none;
+  }
+  .video_medium {
+    display: none;
+  }
+  .video_small {
+    display: block;
+  }
 }/*# sourceMappingURL=style.css.map */
