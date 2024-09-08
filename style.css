@@ -120,6 +120,14 @@ main {
   color: #7c7baa;
 }
 
+.band {
+  display: flex;
+}
+
+.person {
+  width: 50%;
+}
+
 .download-btn {
   background-color: #040404;
   color: white;
@@ -177,6 +185,12 @@ footer {
   }
   .video_medium {
     display: block;
+  }
+  .band {
+    flex-direction: column;
+  }
+  .person {
+    width: 100%;
   }
   footer {
     flex-direction: column;
