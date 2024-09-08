@@ -102,6 +102,20 @@ main {
   display: none;
 }
 
+.services {
+  margin-top: 18px;
+}
+
+.service {
+  height: 27px;
+  padding: 9px;
+  color: #cacace;
+  cursor: pointer;
+}
+.service:hover {
+  color: #7c7baa;
+}
+
 .download-btn {
   background-color: #040404;
   color: white;
