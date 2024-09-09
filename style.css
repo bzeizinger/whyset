@@ -32,6 +32,10 @@ a {
   color: #040404;
   text-decoration: none;
 }
+a:hover {
+  color: #7c7baa;
+  text-decoration: underline;
+}
 
 h1 {
   font-family: ZenKakuGothicNew-Black;
@@ -149,7 +153,7 @@ main {
 footer {
   background-color: #040404;
   color: #ffffff;
-  height: 180px;
+  height: 200px;
   padding: 18px;
   display: flex;
   justify-content: center;
@@ -160,6 +164,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   width: 50%;
 }
 
@@ -219,11 +224,15 @@ footer {
     width: 100%;
   }
   footer {
+    height: 300px;
     flex-direction: column;
     text-align: center;
   }
 }
 @media (max-width: 500px) {
+  .footer {
+    height: 500px;
+  }
   .video_big {
     display: none;
   }
