@@ -1,23 +1,4 @@
-@font-face {
-  font-family: ZenKakuGothicNew-Regular;
-  src: url(/assets/font/ZenKakuGothicNew-Regular.ttf);
-}
-@font-face {
-  font-family: ZenKakuGothicNew-Light;
-  src: url(/assets/font/ZenKakuGothicNew-Light.ttf);
-}
-@font-face {
-  font-family: ZenKakuGothicNew-Medium;
-  src: url(/assets/font/ZenKakuGothicNew-Medium.ttf);
-}
-@font-face {
-  font-family: ZenKakuGothicNew-Bold;
-  src: url(/assets/font/ZenKakuGothicNew-Bold.ttf);
-}
-@font-face {
-  font-family: ZenKakuGothicNew-Black;
-  src: url(/assets/font/ZenKakuGothicNew-Black.ttf);
-}
+@import url(/style/fonts);
 body, html {
   color: #040404;
   padding: 0;
