@@ -186,6 +186,21 @@ footer {
   justify-content: end;
 }
 
+@media (max-width: 1000px) {
+  .hero {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .hero_img {
+    height: auto;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
 @media (max-width: 900px) {
   .video_big {
     display: none;
