@@ -98,7 +98,9 @@ section {
   background-color: #040404;
   color: #ffffff;
   padding: 9px;
-  width: 75px;
+  padding-left: 18px;
+  padding-right: 18px;
+  margin: 9px;
   cursor: pointer;
 }
 .cookies button:hover {
