@@ -74,6 +74,37 @@ section {
   align-items: center;
 }
 
+.hidden {
+  display: none;
+}
+
+.cookies {
+  position: fixed;
+  z-index: 1000;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  border: 1.5px solid #cacace;
+  padding: 9px;
+  border-radius: 10px;
+  margin: 18px;
+  max-width: 100%;
+  text-align: center;
+}
+.cookies button {
+  font-family: ZenKakuGothicNew-Regular;
+  font-size: 18px;
+  border: none;
+  background-color: #040404;
+  color: #ffffff;
+  padding: 9px;
+  width: 75px;
+  cursor: pointer;
+}
+.cookies button:hover {
+  background-color: #7c7baa;
+}
+
 .hero {
   height: 100vh;
   display: flex;
