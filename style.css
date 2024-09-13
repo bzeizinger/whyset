@@ -19,7 +19,8 @@
   src: url(/assets/font/ZenKakuGothicNew-Black.ttf);
 }
 body, html {
-  color: #040404;
+  background-color: #040404;
+  color: #ffffff;
   padding: 0;
   margin: 0;
   height: 100%;
@@ -29,7 +30,7 @@ body, html {
 }
 
 a {
-  color: #040404;
+  color: #ffffff;
   text-decoration: none;
 }
 a:hover {
@@ -138,7 +139,7 @@ main {
 }
 
 .download-btn {
-  background-color: #040404;
+  background-color: #ffffff;
   color: white;
   border: none;
   height: 54px;
@@ -148,10 +149,11 @@ main {
   cursor: pointer;
 }
 .download-btn a {
-  color: #ffffff;
+  color: #040404;
 }
 .download-btn:hover {
   background-color: #7c7baa;
+  text-decoration: none;
 }
 
 footer {
@@ -159,6 +161,7 @@ footer {
   color: #ffffff;
   height: 200px;
   padding: 18px;
+  border-top: 2px solid #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
