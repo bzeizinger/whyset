@@ -24,7 +24,8 @@ $white: #ffffff
 $blue: #7c7baa
 
 body, html
-    color: $black
+    background-color: $black
+    color: $white
     padding: 0
     margin: 0
     height: 100%
@@ -33,7 +34,7 @@ body, html
     font-family: ZenKakuGothicNew-Regular
 
 a
-    color: $black
+    color: $white
     text-decoration: none
 
     &:hover
@@ -121,7 +122,7 @@ main
     padding: 18px
 
 .download-btn
-    background-color: $black
+    background-color: $white
     color: white
     border: none
     height: 54px
@@ -131,16 +132,18 @@ main
     cursor: pointer
 
     a
-        color: $white
+        color: $black
 
     &:hover
         background-color: $blue
+        text-decoration: none
 
 footer
     background-color: $black
     color: $white
     height: 200px
     padding: 18px
+    border-top: 2px solid $white
     display: flex
     justify-content: center
     align-items: center
