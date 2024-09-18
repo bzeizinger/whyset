@@ -133,12 +133,12 @@ main {
 }
 
 .band {
+  padding: 0;
   display: flex;
+  flex-direction: row;
 }
-
-.person {
-  width: calc(50% - 54px);
-  padding: 18px;
+.band img {
+  width: 50%;
 }
 
 .download-btn {
