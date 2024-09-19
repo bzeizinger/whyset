@@ -136,9 +136,13 @@ main {
   padding: 0;
   display: flex;
   flex-direction: row;
+  padding: 0;
+  margin: 0;
+  position: absolute;
 }
 .band img {
   width: 50%;
+  z-index: 0;
 }
 
 .download-btn {
