@@ -132,17 +132,15 @@ main {
   color: #7c7baa;
 }
 
-.band {
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-  padding: 0;
-  margin: 0;
-  position: absolute;
+.person {
+  width: calc(50% - 18px);
+  text-align: center;
 }
-.band img {
-  width: 50%;
-  z-index: 0;
+
+.persons {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
 }
 
 .download-btn {
@@ -167,6 +165,7 @@ footer {
   background-color: #040404;
   color: #ffffff;
   height: 200px;
+  padding-top: 9px;
   padding: 18px;
   border-top: 2px solid #ffffff;
   display: flex;
@@ -227,12 +226,8 @@ footer {
   .video_medium {
     display: block;
   }
-  .band {
+  .persons {
     flex-direction: column;
-  }
-  .person {
-    padding: 0px;
-    width: 100%;
   }
   .person {
     width: 100%;
