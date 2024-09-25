@@ -214,6 +214,55 @@ footer {
   padding-top: 18px;
 }
 
+.cookie {
+  height: 100%;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cookie div {
+  background-color: #ffffff;
+  color: #040404;
+  padding: 36px;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  text-align: center;
+}
+.cookie div a {
+  color: #040404;
+}
+.cookie div button {
+  border: none;
+  background-color: #040404;
+  color: #ffffff;
+  padding: 18px;
+  font-family: ZenKakuGothicNew-Regular;
+  font-size: 18px;
+  padding-top: 18px;
+  cursor: pointer;
+}
+.cookie div button:hover {
+  background-color: #7c7baa;
+  color: #040404;
+}
+
+.cookielinks {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
 @media (max-width: 1000px) {
   .hero {
     height: auto;
@@ -230,6 +279,9 @@ footer {
   }
 }
 @media (max-width: 900px) {
+  .cookie div {
+    flex-wrap: wrap;
+  }
   .video_big {
     display: none;
   }
@@ -263,6 +315,9 @@ footer {
   }
 }
 @media (max-width: 400px) {
+  .cookielinks {
+    flex-direction: column;
+  }
   footer {
     height: 500px;
   }

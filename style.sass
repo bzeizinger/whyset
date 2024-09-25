@@ -191,6 +191,53 @@ footer
 .back
     padding-top: 18px
 
+.cookie
+    height: 100%
+    width: 100vw
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    display: flex
+    justify-content: center
+    align-items: center
+    text-align: center
+
+    div
+        background-color: $white
+        color: $black
+        padding: 36px
+        border-radius: 18px
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        flex-wrap: nowrap
+        text-align: center
+
+        a
+            color: $black
+
+        button
+            border: none
+            background-color: $black
+            color: $white
+            padding: 18px
+            font-family: ZenKakuGothicNew-Regular
+            font-size: 18px
+            padding-top: 18px
+            cursor: pointer
+
+            &:hover
+                background-color: $blue
+                color: $black
+
+.cookielinks
+    display: flex
+    justify-content: space-evenly
+    flex-direction: row
+
 @media (max-width: 1000px)
     .hero
         height: auto
@@ -205,6 +252,10 @@ footer
         object-fit: cover
 
 @media (max-width: 900px)
+    .cookie
+        div
+            flex-wrap: wrap
+
     .video_big
         display: none
 
@@ -238,5 +289,8 @@ footer
         flex-wrap: wrap
 
 @media (max-width: 400px)
+    .cookielinks
+        flex-direction: column
+
     footer
         height: 500px
