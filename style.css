@@ -138,12 +138,18 @@ b {
 
 .person {
   width: calc(50% - 18px);
+  display: flex;
+  align-items: center;
 }
 
 .persons {
   display: flex;
   justify-content: space-between;
   text-align: center;
+}
+
+.personimg {
+  width: 300px;
 }
 
 .download-btn {
@@ -263,6 +269,12 @@ footer {
   flex-direction: row;
 }
 
+@media (max-width: 1100px) {
+  .person {
+    flex-direction: column;
+    width: 100%;
+  }
+}
 @media (max-width: 1000px) {
   .hero {
     height: auto;
@@ -290,9 +302,6 @@ footer {
   }
   .persons {
     flex-direction: column;
-  }
-  .person {
-    width: 100%;
   }
   footer {
     height: 400px;
