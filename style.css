@@ -113,9 +113,10 @@ b {
 }
 
 .album {
-  width: 100wv;
+  max-width: calc(100vw - 36px);
   display: flex;
   flex-direction: row;
+  margin: 0 auto;
 }
 
 .albumsection {
@@ -129,7 +130,11 @@ b {
   flex-direction: column;
 }
 .albumsection img {
-  width: calc(100% - 18px);
+  height: auto;
+  display: flex;
+  max-width: calc(100% - 36px);
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .video_big {

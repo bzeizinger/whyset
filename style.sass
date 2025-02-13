@@ -102,9 +102,10 @@ b
     font-weight: 800
 
 .album
-    width: 100wv
+    max-width: calc( 100vw - 36px )
     display: flex
     flex-direction: row
+    margin: 0 auto
 
 .albumsection
     width: calc( 50% - 18px )
@@ -117,7 +118,10 @@ b
     flex-direction: column
 
     img
-        width: calc( 100% - 18px )
+        height: auto
+        display: flex
+        max-width: calc( 100% - 36px )
+        object-fit: cover
 
 .video_big
     display: block
@@ -322,7 +326,6 @@ footer
 @media ( max-width: 1300px )
     .releases
         flex-direction: column
-    
 
 @media ( max-width: 1000px)
     .album
