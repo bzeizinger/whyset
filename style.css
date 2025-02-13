@@ -32,10 +32,12 @@ body, html {
 a {
   color: #ffffff;
   text-decoration: none;
+  transition: 0.2s;
 }
 a:hover {
   color: #7c7baa;
   text-decoration: underline;
+  transition: 0.2s;
 }
 
 h1 {
@@ -110,6 +112,26 @@ b {
   font-weight: 800;
 }
 
+.album {
+  width: 100wv;
+  display: flex;
+  flex-direction: row;
+}
+
+.albumsection {
+  width: calc(50% - 18px);
+  padding: 18px;
+  margin: 18px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.albumsection img {
+  width: calc(100% - 18px);
+}
+
 .video_big {
   display: block;
 }
@@ -134,9 +156,31 @@ b {
   padding: 9px;
   color: #cacace;
   cursor: pointer;
+  transition: 0.2s;
 }
 .service:hover {
   color: #7c7baa;
+  transition: 0.2s;
+}
+
+.releases {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.releases div {
+  padding: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.releases div img {
+  width: 350px;
+  height: 350px;
+  padding: 18px;
 }
 
 .person {
@@ -147,8 +191,12 @@ b {
 
 .persons {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   text-align: center;
+}
+
+.personlink:hover {
+  text-decoration: none;
 }
 
 .personimg {
@@ -164,13 +212,18 @@ b {
   font-size: 18px;
   font-family: ZenKakuGothicNew-Regular;
   cursor: pointer;
+  transition: 0.2s;
 }
 .download-btn a {
   color: #040404;
 }
+.download-btn a:hover {
+  text-decoration: none;
+}
 .download-btn:hover {
   background-color: #7c7baa;
   text-decoration: none;
+  transition: 0.2s;
 }
 
 footer {
@@ -202,16 +255,20 @@ footer {
   color: #cacace;
   text-decoration: none;
   padding: 4.5px;
+  transition: 0.2s;
 }
 .links a:hover {
   text-decoration: underline;
   color: #7c7baa;
+  transition: 0.2s;
 }
 .links p a {
   color: #ffffff;
+  transition: 0.2s;
 }
 .links p a:hover {
   color: #ffffff;
+  transition: 0.2s;
 }
 
 .social_media {
@@ -260,10 +317,12 @@ footer {
   font-size: 18px;
   padding-top: 18px;
   cursor: pointer;
+  transition: 0.2s;
 }
 .cookie div button:hover {
   background-color: #7c7baa;
   color: #040404;
+  transition: 0.2s;
 }
 
 .cookielinks {
@@ -291,6 +350,26 @@ footer {
     width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+}
+@media (max-width: 1300px) {
+  .releases {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1000px) {
+  .album {
+    flex-direction: column;
+  }
+  .albumsection {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 }
 @media (max-width: 900px) {
